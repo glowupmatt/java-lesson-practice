@@ -20,7 +20,7 @@ public class TodoRoutes {
 
     @PostConstruct
     private void initializeTodos() {
-        repository.save(new Todo("finish app", "this is a reminder to finish app"));
+        // repository.save(new Todo("finish app", "this is a reminder to finish app"));
         repository.save(new Todo("Make Memes", "this is a reminder to make memes"));
         repository.save(new Todo("go to sleep", "this is a reminder to go to sleep"));
     }
